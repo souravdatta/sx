@@ -9,7 +9,7 @@ all : $(OBJECTS)
 .PHONY : test clean clobber fruits
 
 clean :
-	@rm -f *.o *.a *.so* *~
+	@rm -f *.o *.a *.so* *~ lst_test
 
 test : all lst_test
 

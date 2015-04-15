@@ -41,5 +41,11 @@ int main()
 	
 	list_each(nls, show);
 
+    delete_list_lnk(d1.nl);
+    delete_list_lnk(d2.nl);
+    delete_list_lnk(d3.nl);
+    delete_list_lnk(d4.nl);
+    delete_list_lnk(d5.nl);
+    delete_list(nls);
 	return 0;
 }
